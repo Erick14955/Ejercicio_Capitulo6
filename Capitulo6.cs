@@ -192,6 +192,10 @@ namespace Unidad5
             {
                 textcalifalumnos.ReadOnly = true;
                 Aceptar2.Visible = false;
+                labcantalumnos.Visible = false;
+                textcantalumnos.Visible = false;
+                labcalifalumnos.Visible = false;
+                textcalifalumnos.Visible = false;
                 labprom.Visible = true;
                 textcantprom.Visible = true;
                 listprom.Visible = true;

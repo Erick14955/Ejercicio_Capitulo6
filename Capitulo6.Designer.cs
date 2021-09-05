@@ -56,24 +56,26 @@ namespace Unidad5
             // labcantsalones
             // 
             this.labcantsalones.AutoSize = true;
-            this.labcantsalones.Location = new System.Drawing.Point(12, 45);
+            this.labcantsalones.Location = new System.Drawing.Point(14, 60);
             this.labcantsalones.Name = "labcantsalones";
-            this.labcantsalones.Size = new System.Drawing.Size(113, 15);
+            this.labcantsalones.Size = new System.Drawing.Size(143, 20);
             this.labcantsalones.TabIndex = 0;
             this.labcantsalones.Text = "Cantidad de salones";
             // 
             // textcantsalones
             // 
-            this.textcantsalones.Location = new System.Drawing.Point(215, 35);
+            this.textcantsalones.Location = new System.Drawing.Point(246, 47);
+            this.textcantsalones.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textcantsalones.Name = "textcantsalones";
-            this.textcantsalones.Size = new System.Drawing.Size(103, 23);
+            this.textcantsalones.Size = new System.Drawing.Size(117, 27);
             this.textcantsalones.TabIndex = 1;
             // 
             // Aceptar
             // 
-            this.Aceptar.Location = new System.Drawing.Point(324, 35);
+            this.Aceptar.Location = new System.Drawing.Point(370, 47);
+            this.Aceptar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Aceptar.Name = "Aceptar";
-            this.Aceptar.Size = new System.Drawing.Size(75, 24);
+            this.Aceptar.Size = new System.Drawing.Size(86, 32);
             this.Aceptar.TabIndex = 2;
             this.Aceptar.Text = "Aceptar";
             this.Aceptar.UseVisualStyleBackColor = true;
@@ -82,26 +84,28 @@ namespace Unidad5
             // labcantalumnos
             // 
             this.labcantalumnos.AutoSize = true;
-            this.labcantalumnos.Location = new System.Drawing.Point(12, 83);
+            this.labcantalumnos.Location = new System.Drawing.Point(14, 111);
             this.labcantalumnos.Name = "labcantalumnos";
-            this.labcantalumnos.Size = new System.Drawing.Size(179, 15);
+            this.labcantalumnos.Size = new System.Drawing.Size(226, 20);
             this.labcantalumnos.TabIndex = 3;
             this.labcantalumnos.Text = "Cantidad de alumnos del salon 1";
             this.labcantalumnos.Visible = false;
             // 
             // textcantalumnos
             // 
-            this.textcantalumnos.Location = new System.Drawing.Point(215, 76);
+            this.textcantalumnos.Location = new System.Drawing.Point(258, 108);
+            this.textcantalumnos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textcantalumnos.Name = "textcantalumnos";
-            this.textcantalumnos.Size = new System.Drawing.Size(103, 23);
+            this.textcantalumnos.Size = new System.Drawing.Size(117, 27);
             this.textcantalumnos.TabIndex = 4;
             this.textcantalumnos.Visible = false;
             // 
             // Aceptar1
             // 
-            this.Aceptar1.Location = new System.Drawing.Point(324, 75);
+            this.Aceptar1.Location = new System.Drawing.Point(382, 107);
+            this.Aceptar1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Aceptar1.Name = "Aceptar1";
-            this.Aceptar1.Size = new System.Drawing.Size(75, 24);
+            this.Aceptar1.Size = new System.Drawing.Size(86, 32);
             this.Aceptar1.TabIndex = 5;
             this.Aceptar1.Text = "Aceptar";
             this.Aceptar1.UseVisualStyleBackColor = true;
@@ -111,26 +115,28 @@ namespace Unidad5
             // labcalifalumnos
             // 
             this.labcalifalumnos.AutoSize = true;
-            this.labcalifalumnos.Location = new System.Drawing.Point(12, 127);
+            this.labcalifalumnos.Location = new System.Drawing.Point(14, 169);
             this.labcalifalumnos.Name = "labcalifalumnos";
-            this.labcalifalumnos.Size = new System.Drawing.Size(197, 15);
+            this.labcalifalumnos.Size = new System.Drawing.Size(249, 20);
             this.labcalifalumnos.TabIndex = 6;
             this.labcalifalumnos.Text = "Calificacion de alumno 1 del salon 1";
             this.labcalifalumnos.Visible = false;
             // 
             // textcalifalumnos
             // 
-            this.textcalifalumnos.Location = new System.Drawing.Point(215, 119);
+            this.textcalifalumnos.Location = new System.Drawing.Point(281, 166);
+            this.textcalifalumnos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textcalifalumnos.Name = "textcalifalumnos";
-            this.textcalifalumnos.Size = new System.Drawing.Size(103, 23);
+            this.textcalifalumnos.Size = new System.Drawing.Size(117, 27);
             this.textcalifalumnos.TabIndex = 7;
             this.textcalifalumnos.Visible = false;
             // 
             // Aceptar2
             // 
-            this.Aceptar2.Location = new System.Drawing.Point(324, 119);
+            this.Aceptar2.Location = new System.Drawing.Point(405, 166);
+            this.Aceptar2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Aceptar2.Name = "Aceptar2";
-            this.Aceptar2.Size = new System.Drawing.Size(75, 23);
+            this.Aceptar2.Size = new System.Drawing.Size(86, 31);
             this.Aceptar2.TabIndex = 8;
             this.Aceptar2.Text = "Aceptar";
             this.Aceptar2.UseVisualStyleBackColor = true;
@@ -140,28 +146,30 @@ namespace Unidad5
             // listprom
             // 
             this.listprom.FormattingEnabled = true;
-            this.listprom.ItemHeight = 15;
-            this.listprom.Location = new System.Drawing.Point(12, 196);
+            this.listprom.ItemHeight = 20;
+            this.listprom.Location = new System.Drawing.Point(14, 261);
+            this.listprom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listprom.Name = "listprom";
-            this.listprom.Size = new System.Drawing.Size(425, 139);
+            this.listprom.Size = new System.Drawing.Size(485, 184);
             this.listprom.TabIndex = 9;
             this.listprom.Visible = false;
             // 
             // labprom
             // 
             this.labprom.AutoSize = true;
-            this.labprom.Location = new System.Drawing.Point(12, 178);
+            this.labprom.Location = new System.Drawing.Point(14, 237);
             this.labprom.Name = "labprom";
-            this.labprom.Size = new System.Drawing.Size(214, 15);
+            this.labprom.Size = new System.Drawing.Size(271, 20);
             this.labprom.TabIndex = 10;
             this.labprom.Text = "Promedio de calificaciones del salon 1: ";
             this.labprom.Visible = false;
             // 
             // salonsigte
             // 
-            this.salonsigte.Location = new System.Drawing.Point(12, 483);
+            this.salonsigte.Location = new System.Drawing.Point(14, 644);
+            this.salonsigte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.salonsigte.Name = "salonsigte";
-            this.salonsigte.Size = new System.Drawing.Size(101, 32);
+            this.salonsigte.Size = new System.Drawing.Size(115, 55);
             this.salonsigte.TabIndex = 12;
             this.salonsigte.Text = "Salon siguiente";
             this.salonsigte.UseVisualStyleBackColor = true;
@@ -170,9 +178,10 @@ namespace Unidad5
             // 
             // Salir
             // 
-            this.Salir.Location = new System.Drawing.Point(226, 483);
+            this.Salir.Location = new System.Drawing.Point(258, 644);
+            this.Salir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(101, 32);
+            this.Salir.Size = new System.Drawing.Size(115, 43);
             this.Salir.TabIndex = 13;
             this.Salir.Text = "Salir";
             this.Salir.UseVisualStyleBackColor = true;
@@ -182,19 +191,20 @@ namespace Unidad5
             // labcalifmenor
             // 
             this.labcalifmenor.AutoSize = true;
-            this.labcalifmenor.Location = new System.Drawing.Point(12, 353);
+            this.labcalifmenor.Location = new System.Drawing.Point(14, 471);
             this.labcalifmenor.Name = "labcalifmenor";
-            this.labcalifmenor.Size = new System.Drawing.Size(107, 15);
+            this.labcalifmenor.Size = new System.Drawing.Size(133, 20);
             this.labcalifmenor.TabIndex = 14;
             this.labcalifmenor.Text = "Calificacion menor";
             this.labcalifmenor.Visible = false;
             // 
             // textcalifmenor
             // 
-            this.textcalifmenor.Location = new System.Drawing.Point(191, 345);
+            this.textcalifmenor.Location = new System.Drawing.Point(218, 460);
+            this.textcalifmenor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textcalifmenor.Name = "textcalifmenor";
             this.textcalifmenor.ReadOnly = true;
-            this.textcalifmenor.Size = new System.Drawing.Size(103, 23);
+            this.textcalifmenor.Size = new System.Drawing.Size(117, 27);
             this.textcalifmenor.TabIndex = 15;
             this.textcalifmenor.Visible = false;
             this.textcalifmenor.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -202,46 +212,49 @@ namespace Unidad5
             // labcalifmayor
             // 
             this.labcalifmayor.AutoSize = true;
-            this.labcalifmayor.Location = new System.Drawing.Point(12, 397);
+            this.labcalifmayor.Location = new System.Drawing.Point(14, 529);
             this.labcalifmayor.Name = "labcalifmayor";
-            this.labcalifmayor.Size = new System.Drawing.Size(106, 15);
+            this.labcalifmayor.Size = new System.Drawing.Size(132, 20);
             this.labcalifmayor.TabIndex = 16;
             this.labcalifmayor.Text = "Calificacion mayor";
             this.labcalifmayor.Visible = false;
             // 
             // textcalifmayor
             // 
-            this.textcalifmayor.Location = new System.Drawing.Point(191, 389);
+            this.textcalifmayor.Location = new System.Drawing.Point(218, 519);
+            this.textcalifmayor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textcalifmayor.Name = "textcalifmayor";
             this.textcalifmayor.ReadOnly = true;
-            this.textcalifmayor.Size = new System.Drawing.Size(103, 23);
+            this.textcalifmayor.Size = new System.Drawing.Size(117, 27);
             this.textcalifmayor.TabIndex = 17;
             this.textcalifmayor.Visible = false;
             // 
             // labpromgeneral
             // 
             this.labpromgeneral.AutoSize = true;
-            this.labpromgeneral.Location = new System.Drawing.Point(12, 443);
+            this.labpromgeneral.Location = new System.Drawing.Point(14, 591);
             this.labpromgeneral.Name = "labpromgeneral";
-            this.labpromgeneral.Size = new System.Drawing.Size(101, 15);
+            this.labpromgeneral.Size = new System.Drawing.Size(128, 20);
             this.labpromgeneral.TabIndex = 18;
             this.labpromgeneral.Text = "Promedio general";
             this.labpromgeneral.Visible = false;
             // 
             // textpromgeneral
             // 
-            this.textpromgeneral.Location = new System.Drawing.Point(191, 435);
+            this.textpromgeneral.Location = new System.Drawing.Point(218, 580);
+            this.textpromgeneral.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textpromgeneral.Name = "textpromgeneral";
             this.textpromgeneral.ReadOnly = true;
-            this.textpromgeneral.Size = new System.Drawing.Size(103, 23);
+            this.textpromgeneral.Size = new System.Drawing.Size(117, 27);
             this.textpromgeneral.TabIndex = 19;
             this.textpromgeneral.Visible = false;
             // 
             // Continuar
             // 
-            this.Continuar.Location = new System.Drawing.Point(119, 483);
+            this.Continuar.Location = new System.Drawing.Point(136, 644);
+            this.Continuar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Continuar.Name = "Continuar";
-            this.Continuar.Size = new System.Drawing.Size(101, 32);
+            this.Continuar.Size = new System.Drawing.Size(115, 43);
             this.Continuar.TabIndex = 20;
             this.Continuar.Text = "Continuar";
             this.Continuar.UseVisualStyleBackColor = true;
@@ -250,18 +263,19 @@ namespace Unidad5
             // 
             // textcantprom
             // 
-            this.textcantprom.Location = new System.Drawing.Point(226, 170);
+            this.textcantprom.Location = new System.Drawing.Point(301, 230);
+            this.textcantprom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textcantprom.Name = "textcantprom";
-            this.textcantprom.Size = new System.Drawing.Size(100, 23);
+            this.textcantprom.Size = new System.Drawing.Size(114, 27);
             this.textcantprom.TabIndex = 21;
             this.textcantprom.Visible = false;
             // 
             // Capitulo6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(465, 527);
+            this.ClientSize = new System.Drawing.Size(531, 703);
             this.Controls.Add(this.textcantprom);
             this.Controls.Add(this.Continuar);
             this.Controls.Add(this.textpromgeneral);
@@ -285,6 +299,7 @@ namespace Unidad5
             this.Controls.Add(this.labcantsalones);
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Capitulo6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Capitulo 6";
